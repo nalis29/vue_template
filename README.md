@@ -3,15 +3,15 @@ VueJS Basic Template
 
 ## Description
 
-This project is a VueJS template built with TypeScript. No need to install from scratch, just cloned this basic Vue template.
+This project is a VueJS template built with **TypeScript**. No need to install from scratch, just cloned this basic Vue template.
 
 ## Packages Included
 
 The template includes the following packages:
 
-- Bootstrap Icons: A versatile set of open-source icons from the creators of Bootstrap.
-- Sass: A robust CSS extension language that provides greater flexibility and efficiency in styling web applications.
-- Pinia: State management library for Vue providing a simpler and lighter alternative to Vuex.
+- **Bootstrap Icons**: A versatile set of open-source icons from the creators of Bootstrap.
+- **Sass**: A robust CSS extension language that provides greater flexibility and efficiency in styling web applications.
+- **Pinia**: State management library for Vue providing a simpler and lighter alternative to Vuex.
 
 ## Getting Started
 
