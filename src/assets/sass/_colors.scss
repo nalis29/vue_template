@@ -1,0 +1,13 @@
+$primary: #1f7a8c;
+
+
+$colors-themes: (
+  primary: $primary
+);
+
+
+@each $key, $value in $colors-themes {
+  .text-#{ "" + $key } {
+    color: $value;
+  }
+}
