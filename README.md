@@ -1,46 +1,42 @@
-# vue-template
+# Project Name
+VueJS Basic Template
 
-This template should help get you started developing with Vue 3 in Vite.
+## Description
 
-## Recommended IDE Setup
+This project is a VueJS template built with TypeScript. No need to install from scratch, just cloned this basic Vue template.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## Packages Included
 
-## Type Support for `.vue` Imports in TS
+The template includes the following packages:
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+- Bootstrap Icons: A versatile set of open-source icons from the creators of Bootstrap.
+- Sass: A robust CSS extension language that provides greater flexibility and efficiency in styling web applications.
+- Pinia: State management library for Vue providing a simpler and lighter alternative to Vuex.
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+## Getting Started
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Follow the instructions below to set up the development environment.
 
-## Customize configuration
+### Prerequisites
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- Node.js (version 18.X.X or higher)
 
-## Project Setup
+### Installation
 
-```sh
-npm install
-```
+1. Clone the repository
+   ```sh
+   git clone https://github.com/nalis29/vue_template.git
+   ```
+2. Install NPM packages
+   ```sh
+   npm install
+   ```
+   
+### Run Locally
 
-### Compile and Hot-Reload for Development
+To run the application locally, use the following command:
+   ```sh
+   npm run serve
+   ```
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+This command will start a local development server. You can view the application in your browser at `http://localhost:8080`.
